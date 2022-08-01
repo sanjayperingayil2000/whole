@@ -1,0 +1,82 @@
+.whole2
+{
+    border-right: 10px groove green;
+    border-top: 10px groove green;
+    border-bottom: 10px ridge green;
+    border-left: 10px groove green;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5c0d8d395cfd79e70e7c78cf/1545189608194-YXNVI3RUVPD9J6GAD450/shutterstock_601063712+%281%29.jpg);
+    background-size: cover;
+    padding: 10px;
+}
+.rndcnr
+{
+    background-color: black;
+    margin: 10px;
+    color: white;
+    border-radius:30px; 
+    border: 5px solid red;
+    padding: 20px;
+    display: inline-block;
+}
+.rndcnr1
+{
+    width: 350px; height: 60px;
+}
+.rndcnr2
+{
+    width: 300px; height: 30px;
+}
+
+.rndcnr3
+{
+    width: 500px; height: 30px;
+}
+.rndcnrblue
+{
+    width: 300px; height: 250px ;
+    background-color: rgb(43, 210, 235);
+    margin: 10px;
+    color: rgb(15, 63, 255);
+    border-radius:30px; 
+    border: 5px solid rgba(16, 158, 4, 0.696);
+    padding: 0px;
+}
+
+.flex-container
+{
+    display: flex;
+    
+}
+
+.flex-item
+{
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.dotrct
+{
+    border: 5px dashed red;
+    background-color: white;
+    width: 45%;
+    color: crimson;
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+}
+.circ
+{
+    width: 300px; height: 300px;
+    background-color: rgb(3, 113, 93);
+    margin: 100px ;
+    color: black;
+    border-radius:200px; 
+    border: 5px solid rgb(129, 102, 80);
+    text-align: center;
+    padding: 0px;
+    display: inline-block;
+    position: relative;
+    top: -200px;
+
+}
+
