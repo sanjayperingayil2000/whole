@@ -1,0 +1,163 @@
+.whole3
+{
+    background-color: rgb(240, 240, 239);
+    padding: 0px;
+    margin: -8px;
+    
+}
+
+.hedbx
+{
+    background-color: white;
+    padding: 15px 150px;
+    filter: drop-shadow(0px 5px 10px black);
+    position: relative;
+    top: 0px;
+}
+.pad
+{
+    padding: 10px 150px ;
+}
+.plus
+{
+    display: inline-block;
+    margin: 10px;
+      
+}
+.htp
+{
+    height: 40px;
+    width: 40px;
+}
+.rgt
+{
+    position: relative;
+    left: 750px;
+}
+.bt
+{
+    position: relative;
+    top: -13px;
+}
+
+.flex-container
+{
+    display: flex;
+    justify-content: flex-start;    
+    
+}
+
+.flex-item
+{
+    height: 160px;
+    width: 250px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid  rgb(153, 151, 151);
+    padding: 20px;
+    margin: 10px ;
+    
+}
+.gt
+{
+    height: 13px;
+    width: 13px;
+}
+.bgg
+{
+    background-image: url(https://sanjayperingayil2000.github.io/Assessment/gbgbgb.jpg);
+    filter: blur(2px);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    
+}
+.bgg1
+{
+    background-image: url(https://sanjayperingayil2000.github.io/Assessment/bgbgbg.jpg);
+    filter: blur(2px);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    
+}
+.bggopn
+{
+    width: 350px;
+    height: 120px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid  rgb(153, 151, 151);
+    padding: 0px 20px 20px 20px;
+    position: absolute;
+    top: 180px;
+    left: 400px;
+    
+}
+.gt1
+{
+    width: 10px;
+    height: 10px;
+}
+
+.crct
+{
+    border-radius: 5px;
+    background-image: src="";
+    opacity: 50px;
+    padding: 3px 5px;
+    margin: 5px 10px;
+    background-color: rgb(220, 219, 219);
+}
+.tsk
+{
+    width: 100px;
+    height: 30px;
+    
+    border-radius: 5px;
+    background-color: rgba(0, 149, 255, 0.923);
+    color: white;
+    text-align: center;
+    margin: 10px 10px;
+}
+.tsk1
+{
+    position: relative;
+    left: 230px;
+}
+.hgth
+{
+    position: relative;
+    top: 4px;
+    padding-top: 3px ;
+       
+}
+.flex-item1
+{
+    height: 160px;
+    width: 250px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid  rgb(153, 151, 151);
+    padding: 20px;
+    margin: 10px ;
+    
+}
+.rgt1
+{
+    position: relative;
+    left: 200px;
+}
+.rgt2
+{
+    position: relative;
+    left: 10px;
+}
+.ctct
+{
+    position: relative;
+    left: 400px;
+}
