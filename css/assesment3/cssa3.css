@@ -1,0 +1,109 @@
+.body
+{
+    margin: 50px 20px 200px 20px;
+    
+}
+.shdw
+{
+    filter: drop-shadow(8px 8px 2px rgba(219, 20, 20, 0.755));
+}
+.brdr
+{
+    border: 6px solid rgba(13, 255, 0, 0.849);
+    padding: 20px;
+    border-radius: 30px;
+    background-color: WHITE;
+    height: auto;
+}
+.brdr2
+{
+    border: 6px solid rgba(55, 0, 255, 0.849);
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgb(255, 0, 0);
+    height: auto;
+    width: 50vw;
+}
+.flbrdr
+{
+    border: 10px solid rgba(255, 0, 0, 0.849);
+    padding: 20px;
+    height: 700px;
+    width: 96%;  
+}
+.brdr3
+{
+    border: 6px solid rgba(13, 255, 0, 0.849);
+    padding: 20px;
+    border-radius: 30px;
+    background-color: WHITE;
+    height: auto;
+    width: 250px;
+    text-align: center;
+}
+
+
+
+
+
+
+.cb1
+{
+    position: relative;
+    top: 20px;
+    left: 32vw;
+}
+.fxcb
+{
+    position: fixed;
+    bottom: 5%;
+    left: 22%;
+    float: left;
+}
+.dib
+{
+    display: inline-block;
+}
+.lb
+{
+    padding: 20px;    
+    margin: 30px;
+}
+.rb
+{
+    padding: 20px;
+    margin: 30px;
+    position: relative;
+    right: -700px;
+    top: -50px;
+}
+
+
+
+
+
+.grid-container
+{
+    background-color: green;
+    padding: 20px;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    width: 50%;
+    height: auto;
+    border: 15px solid rgb(209, 0, 209);
+    position: relative;
+    left: 20%;
+}
+.grid-item
+{
+    background-color: white;
+    margin: 2px;
+    text-align: center;
+    padding: 2px;
+    height: 200px;
+    
+}
+.gg1
+{
+    grid-column: 1/3;
+}
