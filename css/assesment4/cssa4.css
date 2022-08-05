@@ -1,0 +1,128 @@
+body
+{
+    padding: 0px 20px 100px 20px;
+}
+
+
+.hdgrnt
+{
+    background-image: linear-gradient(to right, rgb(130, 130, 219), rgb(255, 184, 51), rgb(129, 251, 129), rgb(225, 225, 90));
+    width: 100%;
+    height: auto;
+}
+.hdgrnt1
+{
+    background-image: linear-gradient(to right, red,yellow,red);
+    width: 100%;
+    height: auto;
+}
+.hdgrnt2
+{
+    background-image: radial-gradient( rgb(76, 64, 64),rgb(255, 255, 0),blue);
+    width: 100%;
+    height: auto;
+    border: 6px solid red;
+}
+.hdgrnt4
+{
+    background-image: linear-gradient(to right, rgb(49, 143, 96), rgb(47, 137, 162), rgb(149, 92, 199), rgb(116, 116, 24));
+    width: 100%;
+    height: auto;
+}
+
+.ctbx
+{
+    border: 3px solid red;
+    width: 40%;
+    height: auto;
+    background-color: aqua;
+    position: relative;
+    left: 30%;
+    border-radius:20px ;
+}
+.brdr1
+{
+    border: 3px solid rgb(38, 0, 255);
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 0, 195);
+    border-radius: 40px;
+}
+
+
+
+
+
+.flex-container
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;   
+}
+.flex-item
+{
+    height: 80px;
+    width: 350px;
+    background-color: rgb(226, 111, 111);
+    border-radius: 20px;
+    border: 2px solid  rgb(0, 0, 0);
+    padding: 20px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.flex-container1
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;   
+}
+.flex-item1
+{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 2px solid  rgb(255, 0, 0);
+    padding: 20px;
+    margin:  50px;
+    text-align: center;
+}
+
+
+.grid-container
+{
+    background-color: rgb(255, 255, 255);
+    
+    display:grid;
+    grid-template-columns: 420px 420px 420px 110px;
+    row-gap: 10px;
+    column-gap: 20px;
+    height: auto;
+    border: 15px solid rgb(255, 255, 255);
+    
+    
+}
+.grid-item
+{
+    
+    
+    height: 70px;
+    color: white;
+    
+}
+.gr1{
+    grid-row: 1/4 ;
+    
+}
+.gr2
+{
+    grid-column: 1/4;
+    grid-row: 2/4;
+    
+}
+
+li
+{
+    padding: 2px 0 2px -3px;
+}
