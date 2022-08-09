@@ -20,6 +20,7 @@ a{text-decoration: none;}
 @media (max-width:769px) and (min-width:391px){
 .hedbx{
     padding: 10px 30px;
+    width: 708px;
 }
 }
 @media (max-width:391px){
