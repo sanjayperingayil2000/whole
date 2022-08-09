@@ -1,0 +1,314 @@
+.whole3
+{
+    background-color: rgb(240, 240, 239);
+    padding: 0px;
+    margin: -8px 0;   
+}
+
+a{text-decoration: none;}
+
+.hedbx
+{
+    background-color: white;
+    padding: 15px 150px;
+    filter: drop-shadow(0px 5px 10px black);
+    position: relative;
+    top: 0px;
+    width: 100%;
+}
+
+@media (max-width:769px){
+.hedbx{
+    padding: 10px 30px;
+}
+}
+
+.pad
+{
+    padding: 10px 150px ;
+}
+
+@media (max-width:769px) and (min-width:391px){
+    .pad{
+        padding: 10px 30px;
+    }
+    }
+
+@media (max-width:391px){
+    .pad{
+        padding: 10px 30px;
+    }
+}   
+
+.plus
+{
+    display: inline-block;
+    margin: 10px;
+      
+}
+.htp
+{
+    height: 40px;
+    width: 40px;
+}
+.rgt
+{
+    position: relative;
+    top: 20px;
+    left: 950px;
+    width: 280px;
+}
+
+@media (max-width:769px) and (min-width:391px){
+    .rgt{
+        position: relative;
+        left: 420px;
+    }
+    }
+
+@media (max-width:391px){
+        .rgt{
+           position: relative;
+           left: 150px; 
+        }
+       }
+
+.bt
+{
+    position: relative;
+    top: -13px;
+}
+
+.flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    top: 10px;    
+    
+}
+
+.flex-item
+{
+    height: 160px;
+    width: 280px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid  rgb(153, 151, 151);
+    padding: 20px;
+    margin: 10px ;   
+}
+
+.flex-item:hover{
+    box-shadow: 5px 5px 8px rgb(49, 49, 49);
+}
+
+@media (max-width:769px) and (min-width:391px){
+    .flex-item{
+        width:180px;
+    }
+}
+@media (max-width:391px){
+    .flex-container{
+        justify-content: center;
+    }
+    .flex-item{
+        width:200px;
+    }
+}
+
+.gt
+{
+    height: 13px;
+    width: 13px;
+}
+.bgg
+{
+    background-image: url(https://sanjayperingayil2000.github.io/Assessment/gbgbgb1.jpg);
+    filter: blur(2px);
+    width: 100%;
+    height: 750px;
+    background-size: cover;    
+}
+
+@media (max-width:769px) and (min-width:391px){
+    .bgg{
+        background-image: url(https://sanjayperingayil2000.github.io/Assessment/gbipadmini.jpg);
+        width: 100%;
+        height: 1000px;
+    }
+}
+@media (max-width:391px){
+    .bgg{
+        background-image: url(https://sanjayperingayil2000.github.io/Assessment/gb12.jpg);
+        width: 100%;
+        height: 1000px;
+    }
+}
+
+.bgg1
+{
+    background-image: url(https://sanjayperingayil2000.github.io/Assessment/bgbgbg1.jpg);
+    filter: blur(2px);
+    width: 100%;
+    height: 750px;
+    background-size: cover;    
+}
+
+@media (max-width:769px) and (min-width:391px){
+    .bgg1{
+        background-image: url(https://sanjayperingayil2000.github.io/Assessment/bgipadmini.jpg);
+        width: 100%;
+        height: 1000px;
+    }
+}
+@media (max-width:391px){
+    .bgg1{
+        background-image: url(https://sanjayperingayil2000.github.io/Assessment/bg12.jpg);
+        width: 100%;
+        height: 1000px;
+    }
+}
+
+.bggopn
+{
+    width: 350px;
+    height: 120px;
+    margin: 0px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid  rgb(153, 151, 151);
+    padding: 0px 20px 20px 20px;
+    position: absolute;
+    top: 180px;
+    left: 400px;   
+}
+
+@media (max-width:769px) and (min-width:391px){
+    .bggopn{
+        position: absolute;
+        top: 180px;
+        left: 200px; 
+    }
+}
+@media (max-width:391px){
+    .bggopn{
+        position: absolute;
+        top: 180px;
+        left: 00px; 
+        
+    }
+}
+
+.gt1
+{
+    width: 10px;
+    height: 10px;
+}
+
+.crct
+{
+    border-radius: 5px;
+    background-image: src="";
+    opacity: 50px;
+    padding: 3px 5px;
+    margin: 5px 10px;
+    background-color: rgb(220, 219, 219);
+}
+.tsk
+{
+    width: 100px;
+    height: 30px;
+    
+    border-radius: 5px;
+    background-color: rgba(0, 149, 255, 0.923);
+    color: white;
+    text-align: center;
+    margin: 10px 10px;
+}
+.tsk1
+{
+    position: relative;
+    left: 230px;
+}
+.hgth
+{
+    position: relative;
+    top: 4px;
+    padding-top: 3px ;
+       
+}
+.flex-item1
+{
+    height: 160px;
+    width: 250px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid  rgb(153, 151, 151);
+    padding: 20px;
+    margin: 10px ;   
+}
+
+.flex-item1:hover{
+    box-shadow: 5px 5px 8px rgb(49, 49, 49);
+}
+
+.rgt1
+{
+    position: relative;
+    left: 200px;
+}
+
+@media (max-width:769px) and (min-width:391px){
+    .rgt1{
+        position: relative;
+        left: 100px;
+    }
+}
+@media (max-width:391px){
+    .rgt1{
+        position: relative;
+        left: 20px;
+        padding: 0;
+    }
+}
+
+.rgt2
+{
+    position: relative;
+    left: 100px;
+}
+@media (max-width:391px){
+    .rgt2{
+        position: relative;
+        left:0px;
+        padding: 0;
+
+    }
+}
+.ctct
+{
+    position: relative;
+    left: 400px;
+}
+@media (max-width:769px) and (min-width:391px){
+    .ctct
+{
+    position: relative;
+    left: 200px;
+}
+}
+@media (max-width:391px){
+    .ctct
+    {
+        position: relative;
+        left: 40px;
+    }
+}
+
+
