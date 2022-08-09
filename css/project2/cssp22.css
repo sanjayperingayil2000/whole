@@ -17,11 +17,17 @@ a{text-decoration: none;}
     width: 100%;
 }
 
-@media (max-width:769px){
+@media (max-width:769px) and (min-width:391px){
 .hedbx{
     padding: 10px 30px;
 }
 }
+@media (max-width:391px){
+    .hedbx{
+        padding: 10px 30px;
+        width: 330px;
+    }
+    }
 
 .pad
 {
@@ -69,7 +75,8 @@ a{text-decoration: none;}
 @media (max-width:391px){
         .rgt{
            position: relative;
-           left: 150px; 
+           left: 120px; 
+           width: 200px;
         }
        }
 
@@ -115,9 +122,11 @@ a{text-decoration: none;}
 @media (max-width:391px){
     .flex-container{
         justify-content: center;
+        padding: 20px;
     }
     .flex-item{
         width:200px;
+        padding: 20px;
     }
 }
 
