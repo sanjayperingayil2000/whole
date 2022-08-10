@@ -1,0 +1,99 @@
+.bx{
+    height: 100px;
+    width: 100px;
+    margin: 0px 50px ;
+    display: inline-block;
+}
+.first{
+    animation-direction: alternate;
+    animation-name: fff;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes fff{
+    from{
+        transform: skew(45deg);
+    }
+    to{
+        transform: skew(-45deg);
+    }
+}
+.second{
+    animation-direction: alternate;
+    animation-name: bbb;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes bbb{
+    from{
+        transform: skewy(45deg);
+    }
+    to{
+        transform: skewy(-45deg);
+    }
+}
+.third{
+    animation-direction: normal;
+    animation-name: ccc;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes ccc{
+    from{
+        transform: rotate(180deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.f1{
+    animation-direction: normal;
+    animation-name: ddd;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes ddd{
+    0%{
+        transform: scaleX(1);
+    }
+    50%{
+        transform: scaleX(2);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
+.f2{
+    animation-direction: normal;
+    animation-name: eee;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes eee{
+    0%{
+        transform: scaley(1);
+    }
+    50%{
+        transform: scaley(2);
+    }
+    100%{
+        transform: scaley(1);
+    }
+}
+.f3{
+    animation-direction: normal;
+    animation-name: ggg;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes ggg{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}

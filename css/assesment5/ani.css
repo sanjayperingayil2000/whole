@@ -1,0 +1,25 @@
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 0px 50px ;
+    background-color: aqua;
+    display: inline-block;
+}
+.aaa{
+    transition-duration: 3s;
+
+}
+.aaa:hover{
+    width: 200px;
+}
+.bbb{
+    transition: width 3s, height 5s;
+}
+.bbb:hover{
+    width: 200px;
+    height: 250px;
+}
+.xxx{
+    position: fixed;
+    left: 45%;
+}
