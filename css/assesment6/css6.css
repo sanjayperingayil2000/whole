@@ -1,0 +1,189 @@
+body, html {
+    height: 100%;
+    margin: -10px
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.ebx{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;
+}
+.xyz{
+    position: relative;
+    top: 8px;
+}
+.bg{
+    height:100%;
+    width:100%;
+    background-image: url(shara-desert.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+@media (max-width: 856px){
+    .bg{
+        background-repeat: repeat-y;
+    }
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+@media (max-width: 856px){ 
+    .logo{
+    height: 200px;
+    width: 200px;
+    display: block;
+    position: absolute;
+    left: 0%;
+    top: 50px;
+}}
+.nav{
+    position: absolute;
+    top: 50px;
+    right: 60px;
+}
+.menu{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+}
+.sah{
+    position: relative;
+    top: 250px;
+    left: 100px;
+    width: 40%;
+}
+@media (max-width:856px) {
+    .sah{
+        width: 80%;
+        position: relative;
+        top: 150px;
+    } 
+}
+.bx1{
+    position: absolute;
+    top: 120px;
+    right: 60px;
+    width: 225px;
+    height: 250px;
+    border-radius: 30px;
+    margin: 30px;
+    background-image: url(pic-1.png);
+    background-size: cover;   
+}
+@media (max-width:856px) {
+    .bx1{
+    position: absolute;
+    top: 380px;
+    width: 70%;
+    left: 10%;
+    height: 200px;
+    border-radius: 30px;
+    margin: 60px;
+    align-items: center;
+    background-image: url(pic-1.png);
+    background-size: cover;
+    background-position: center; 
+    }
+}
+.bx2{
+    position: absolute;
+    top: 120px;
+    right: 335px;
+    width: 225px;
+    height: 250px;
+    border-radius: 30px;
+    margin: 30px;
+    background-image: url(pic-2.png);
+    background-size: cover;
+}
+@media (max-width:856px) {
+    .bx2{
+    position: absolute;
+    top: 630px;
+    left: 10%;
+    width: 70%;
+    height: 200px;
+    border-radius: 30px;
+    margin: 60px;
+    background-image: url(pic-2.png);
+    background-size: cover;
+    background-position: center; 
+    } 
+}    
+.bx3{
+    position: absolute;
+    top: 380px;
+    right: 60px;
+    width: 225px;
+    height: 250px;
+    border-radius: 30px;
+    margin: 30px;
+    background-image: url(pic-3.png);
+    background-size: cover;   
+}
+@media (max-width:856px) {
+    .bx3{
+    position: absolute;
+    top: 880px;
+    left: 10%;
+    width: 70%;
+    height: 200px;
+    border-radius: 30px;
+    margin: 60px;
+    background-image: url(pic-3.png);
+    background-size: cover;
+    background-position: center; 
+    } 
+}
+.bx4{
+    position: absolute;
+    top: 380px;
+    right: 335px;
+    width: 225px;
+    height: 250px;
+    border-radius: 30px;
+    margin: 30px;
+    background-image: url(pic-4.png);
+    background-size: cover;
+}
+@media (max-width:856px) {
+    .bx4{
+    position: absolute;
+    top: 1130px;
+    left: 10%;
+    width: 70%;
+    height: 200px;
+    border-radius: 30px;
+    margin: 60px;
+    background-image: url(pic-4.png);
+    background-size: cover;
+    background-position: center; 
+    } 
+}
+.bx1:hover{
+    transform: translateY(-20px);
+    transition-duration: 2s;
+}
+.bx2:hover{
+    transform: translateY(-20px);
+    transition-duration: 2s;
+}
+.bx3:hover{
+    transform: translateY(-20px);
+    transition-duration: 2s;
+}
+.bx4:hover{
+    transform: translateY(-20px);
+    transition-duration: 2s;
+}
