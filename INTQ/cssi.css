@@ -111,3 +111,63 @@ a{
     margin: 10px;
     padding: 50px;
 }
+
+
+
+.test{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    transition-duration: 3s;
+}
+.test:hover{
+    width: 300px;
+}
+
+.transform{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    transform: rotate(30deg);
+}
+
+.grid-container{
+    background-color: black;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+.grid-item{
+    background-color: aqua;
+    margin: 4px;   
+    width: 100px;
+    height: 50px;
+}
+div>b{
+    color: lightseagreen;
+}
+b+i{
+    color: crimson;
+}
+
+p~b{
+    color: fuchsia;
+}
+
+span::before{
+    content: "";
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: red;
+}
+li::before{
+    content: "";
+    display: inline-block;
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background-color: coral;
+}
+li::marker{
+    content: "";
+}
