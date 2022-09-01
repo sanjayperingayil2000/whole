@@ -1,0 +1,217 @@
+body
+{
+    background-color: #3D087B;
+    padding: 34px 124px;
+}
+div .p1
+{
+    display: inline-block;
+    width:204px;
+    height: 77px;
+}
+
+.timebx
+{
+    display: inline-block;
+    width: 536px;
+    height: 130px;
+    position: absolute;
+    right: 120px;
+    top: 42px;
+    background-color: white;
+    align-items: center;
+    border-radius:10px ;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-item{
+    width: 80px;height: 90px;
+    color: #8A11BF;
+    align-items: center;
+}
+.t{
+    font-size: 20px;
+    color: #3D087B;
+    text-align: center;
+    position: relative;
+    top: 32px;
+}
+
+.tt
+{
+    background-image: url(timeline.svg);
+    color: #8a11bf;
+    text-align: center;
+}
+.ttp
+{
+    font-size: 36px;
+    position: relative;
+    top: 10px;
+}
+.ttpp
+{
+    font-size: 23px;
+    position: relative;
+    top: 10px;
+}
+.ttt
+{
+    background-image: url(AM_svg.svg);
+    text-align: center;
+    color: white;
+}
+.tttp
+{
+    font-size: 36px;
+    position: relative;
+    top: 25px;
+}
+.dot
+{
+    font-size: 45px;
+    color: #8a11bf;
+    position: absolute;
+    top: 80px;
+    left: 1090.7px
+}
+.dot2
+{
+    font-size: 45px;
+    color: #8a11bf;
+    position: absolute;
+    top: 80px;
+    left: 1195.7px
+}
+.b1bx {
+    width: 28%;
+    height: 15vh;
+    border-radius: 10px;
+    background-color: #EDEDED;
+    position: absolute;
+    top: 75px;
+    left: 930px;
+    opacity: 0.8;
+    z-index: -1;
+}
+.b2bx {
+    width: 25%;
+    height: 18vh;
+    border-radius: 10px;
+    background-color: #EDEDED;
+    position: absolute;
+    top: 70px;
+    left: 950px;
+    opacity: 0.3;
+    z-index: -2;
+}
+.setbx
+{
+    background-color: white;
+    border-radius: 20px;
+    width: 610px;
+    height: auto;
+    padding: 10px 30px;
+}
+.lbx
+{
+    width: 34px;
+    height: 34px;
+    vertical-align: middle;
+}
+.txt1
+{
+    color: #3D087B;
+    font-size: 20px;
+}
+select{
+    display: inline-block;
+}
+.selection {
+    width: 18vw;
+    height: 5vh;
+    color: #3D087BDE;
+    border-radius: 5px;
+    margin: 12px 20px 0 0;
+}
+.writing
+{
+    display: inline-block;
+    width: 536px;
+    height: 130px;
+    position: absolute;
+    right: 120px;
+    top: 212px;
+    background-color: white;
+    align-items: center;
+    border-radius:20px ;
+}
+.writingfont
+{
+    color:#8E53F0;
+    font-size: 25px;
+    font-family: 'Baumans', cursive;
+    position: relative;
+    top: 42px;
+    padding-left: 40px;
+}
+.picture
+{
+    display: inline-block;
+    width: 536px;
+    height: 341px;
+    position: absolute;
+    right: 120px;
+    top: 360px;
+    background-color: white;
+    align-items: center;
+    border-radius:20px ;
+    background-image: url(first.svg);
+}
+.messagebx
+{
+    background-color: #512e89;
+    border-radius: 20px;
+    width: 610px;
+    height: 60px;
+    padding: 10px 30px;
+    color: white;
+    font-family: 'Baumans', cursive;
+    font-size: 27px;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+}
+.bttn
+{
+    display: inline-block;
+    width: 299px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right,#6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
+    font-size: 24px;
+    border-radius: 5px;
+}
+.bxx
+{
+    display: inline-block;
+    background-color: #512e89;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color:#F25CFE;
+    width: 250px; 
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+.lstbx
+{
+    position: relative;
+    top: -40px;
+}
