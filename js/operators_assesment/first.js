@@ -46,7 +46,7 @@ function girl() {
     var x = 20;
 };
 "
-A)20,21
+A)undefined,20
 
 6.var x = 21;
 a();
@@ -63,7 +63,7 @@ b = function() {
    console.log(x);
 };
 
-A) 20,40,undefined
+A) notdefined
 
 
 7.Write a function that accepts parameter n and returns factorial of n
