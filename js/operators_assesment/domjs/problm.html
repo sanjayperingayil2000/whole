@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom</title>
+    <link rel="stylesheet" href="prb.css">
+</head>
+<body>
+
+    <h1>Hello </h1>
+    <div class="flex">
+        <div class="flxcon"></div>
+        <div class="flxcon"></div>
+        <div class="flxcon"></div>
+        <button onclick="chng()" type="button" class="btn">clck</button>
+
+    </div>
+
+    <hr>
+
+    <h1>Hello</h1>
+
+    <hr>
+
+    <h1>Hello world</h1><button id="rpt" onclick="cngt()">Replace text</button>
+
+    <hr>
+
+    <span id="hour"></span>
+    <span id="minute"></span>
+    <span id="second"></span>
+
+    <hr>
+
+    <select id="dropYear" >
+        <option></option>
+        <option id="20-21">2020-2021</option>
+        <option id="21-22">2021-2022</option>
+    </select><span>     </span>
+    <button onclick="yearIs()"> submit </button>
+    <span>      selected: </span>
+    <span id="slc">:</span>
+
+    <hr>
+
+
+
+    <form action="#">
+        <label for="name">Name : </label>
+        <input id="name" type="text" placeholder="Enter your name" required><br><br>
+        <label for="email">Email :</label>
+        <input id="email" type="text" placeholder="Enter your email" required><span
+        id="message1"> Domain should be "@prepbytes.com" only</span><br><br>
+        <label for="phone">Phone No:</label>
+        <input id="phone" type="number" placeholder="Enter the phone number"
+        required><span id="message2"> Phone number should start with 91 and must be 10 digits
+        only</span><br><br>
+        <label for="birthYear">Birth Year : </label>
+        <input id="birthYear" type="date" required><span id="message3"> Birth Year should
+        be greater than 1995</span><br><br>
+        <button type="submit" onclick="check()">Submit</button>
+    </form>
+
+
+
+
+
+
+    <script src="prb.js"></script>
+    
+</body>
+</html>
