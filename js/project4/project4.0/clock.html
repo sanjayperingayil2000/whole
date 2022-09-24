@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/58098877f2.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="cl.css">
+</head>
+<body>
+    <div class="p1">
+        <img src="clock_logo.png">
+    </div>
+    <div class="timebx flex-container">
+        <div class="flex-item t"><span> TIME</span></div>
+        <div class="flex-item tt"><span class="ttp" id="hour"></span><br><span class="ttpp">hours</span></div>
+        <div class="flex-item tt"><span class="ttp" id="minute"></span><br><span class="ttpp">mins</span></div>
+        <div class="flex-item tt"><span class="ttp" id="second"></span><br><span class="ttpp">secs</span></div>
+        <div class="flex-item ttt"><span class="tttp" id="am">AM</span></div>
+    </div>
+    <div class="b1bx"></div>
+    <div class="b2bx"></div>
+    <span class="dot">:</span>
+    <span class="dot2">:</span>
+<br><BR>
+    <div class="setbx">
+        <div class="flcnt">
+        <p><span class="lbx"><img src="wake_up.svg"></span><span class="txt1" >
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Set wake up time
+        </span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select id="firstsel" name="Time" class="selection">
+            <option>12 AM - 01 AM</option>
+            <option>01 AM - 02 AM</option>
+            <option>02 AM - 03 AM</option>
+            <option>03 AM - 04 AM</option>
+            <option>04 AM - 05 AM</option>
+            <option>05 AM - 06 AM</option>
+            <option>06 AM - 07 AM</option>
+            <option>07 AM - 08 AM</option>
+            <option>08 AM - 09 AM</option>
+            <option>09 AM - 10 AM</option>
+            <option>10 AM - 11 AM</option>
+            <option>11 AM - 12 PM</option>
+            <option>12 PM - 01 PM</option>
+            <option>01 PM - 02 PM</option>
+            <option>02 PM - 03 PM</option>
+            <option>03 PM - 04 PM</option>
+            <option>04 PM - 05 PM</option>
+            <option>05 PM - 06 PM</option>
+            <option>06 PM - 07 PM</option>
+            <option>07 PM - 08 PM</option>
+            <option>08 PM - 09 PM</option>
+            <option>09 PM - 10 PM</option>
+            <option>10 PM - 11 PM</option>
+            <option>11 PM - 12 AM</option>
+        </select>
+        </p>
+        </div>
+
+        <div class="br br1"></div>
+
+        <div class="flcnt">
+        <p><span class="lbx"><img src="lunch_time.svg"></span><span class="txt1" >
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Set lunch time
+        </span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        <select id="secondsel" name="Time" class="selection">
+            <option>12 AM - 01 AM</option>
+            <option>01 AM - 02 AM</option>
+            <option>02 AM - 03 AM</option>
+            <option>03 AM - 04 AM</option>
+            <option>04 AM - 05 AM</option>
+            <option>05 AM - 06 AM</option>
+            <option>06 AM - 07 AM</option>
+            <option>07 AM - 08 AM</option>
+            <option>08 AM - 09 AM</option>
+            <option>09 AM - 10 AM</option>
+            <option>10 AM - 11 AM</option>
+            <option>11 AM - 12 PM</option>
+            <option>12 PM - 01 PM</option>
+            <option>01 PM - 02 PM</option>
+            <option>02 PM - 03 PM</option>
+            <option>03 PM - 04 PM</option>
+            <option>04 PM - 05 PM</option>
+            <option>05 PM - 06 PM</option>
+            <option>06 PM - 07 PM</option>
+            <option>07 PM - 08 PM</option>
+            <option>08 PM - 09 PM</option>
+            <option>09 PM - 10 PM</option>
+            <option>10 PM - 11 PM</option>
+            <option>11 PM - 12 AM</option>
+        </select>
+        </p>
+        </div>
+
+        <div class="br br2"></div>
+
+
+        <div class="flcnt">
+        <p><span class="lbx"><img src="nap_time.svg"></span><span class="txt1" >
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Set nap time
+        </span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        <select id="thirdsel" name="Time" class="selection">
+            <option>12 AM - 01 AM</option>
+            <option>01 AM - 02 AM</option>
+            <option>02 AM - 03 AM</option>
+            <option>03 AM - 04 AM</option>
+            <option>04 AM - 05 AM</option>
+            <option>05 AM - 06 AM</option>
+            <option>06 AM - 07 AM</option>
+            <option>07 AM - 08 AM</option>
+            <option>08 AM - 09 AM</option>
+            <option>09 AM - 10 AM</option>
+            <option>10 AM - 11 AM</option>
+            <option>11 AM - 12 PM</option>
+            <option>12 PM - 01 PM</option>
+            <option>01 PM - 02 PM</option>
+            <option>02 PM - 03 PM</option>
+            <option>03 PM - 04 PM</option>
+            <option>04 PM - 05 PM</option>
+            <option>05 PM - 06 PM</option>
+            <option>06 PM - 07 PM</option>
+            <option>07 PM - 08 PM</option>
+            <option>08 PM - 09 PM</option>
+            <option>09 PM - 10 PM</option>
+            <option>10 PM - 11 PM</option>
+            <option>11 PM - 12 AM</option>
+        </select>
+        </p>
+        </div>
+
+        <div class="br br3"></div>
+
+        <div class="flcnt">
+        <p><span class="lbx"><img src="nap_time.svg"></span><span class="txt1" >
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Set night time
+        </span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select id="fourthsel" name="Time" class="selection">
+            <option>12 AM - 01 AM</option>
+            <option>01 AM - 02 AM</option>
+            <option>02 AM - 03 AM</option>
+            <option>03 AM - 04 AM</option>
+            <option>04 AM - 05 AM</option>
+            <option>05 AM - 06 AM</option>
+            <option>06 AM - 07 AM</option>
+            <option>07 AM - 08 AM</option>
+            <option>08 AM - 09 AM</option>
+            <option>09 AM - 10 AM</option>
+            <option>10 AM - 11 AM</option>
+            <option>11 AM - 12 PM</option>
+            <option>12 PM - 01 PM</option>
+            <option>01 PM - 02 PM</option>
+            <option>02 PM - 03 PM</option>
+            <option>03 PM - 04 PM</option>
+            <option>04 PM - 05 PM</option>
+            <option>05 PM - 06 PM</option>
+            <option>06 PM - 07 PM</option>
+            <option>07 PM - 08 PM</option>
+            <option>08 PM - 09 PM</option>
+            <option>09 PM - 10 PM</option>
+            <option>10 PM - 11 PM</option>
+            <option>11 PM - 12 AM</option>
+        </select>
+        </p>
+        </div>
+       
+
+    </div>
+    <div class="writing">
+        <b id="textForChange" class="writingfont">GRAB SOME HEALTHY BREAKFAST!!!</b>
+    </div>
+
+    <div id="picChange" class="picture"></div>
+    <br><br>
+
+    <div class="messagebx"><b id="test">GOOD MORNING!! WAKE UP !!</b></div>
+    <br>
+    <div class="lstbx">
+    <div id="btn" onclick="set()" class="bttn">Set Alarm</div>
+
+    <div class="bxx">
+        Wake Up Time : <span id="wkupt">10AM - 11AM</span> <br>
+        Lunch Time : <span id="lncht">12PM - 1PM</span> <br>
+        Nap Time : <span id="npt">4PM - 5PM</span> <br>
+        Night Time : <span id="nghtt">8PM - 9AM</span></div>
+    </div>
+
+
+
+
+
+
+
+
+<script src="clk.js"></script>
+</body>
+</html>
