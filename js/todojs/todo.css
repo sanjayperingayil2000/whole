@@ -1,0 +1,242 @@
+body{margin:0;background-color: #e0e0e0;}
+body#popup3{background-color: white;}
+a{text-decoration: none;color: red;}
+.pluscircle{
+    display: inline-block;
+}
+.pst1{
+    position: relative;
+    top: 21px;
+}
+.hd1{
+    font-size: 40px;
+}
+.flex1p{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+.flex2p{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    justify-content: flex-start;
+    margin: 0 20px;
+}
+#parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.child{
+    height: 350px;
+    width: 300px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: rgb(50, 231, 9);
+    text-align: center;
+    font-size: 35px;
+    margin: 20px;
+}
+.addtask{
+    filter: blur(2px);
+    background-size: cover; 
+}
+.cont{
+    background-color: #e0e0e0;
+    height: 100vh;
+    width: 100%;
+}
+#blurr.active{
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+#popup{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 5px 30px rgb(49, 49, 49);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    align-items: center;
+    border-radius: 35px;
+}
+#popup.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+.add{
+    width: 150px;height: 40px;
+    background-color: rgb(37, 192, 3);
+    border-radius: 25px;
+    text-align: center;
+    margin: 0px 30px;
+}
+div.ct{
+    color: #fff;
+    font-size: 25px;
+    text-shadow: 0 2px 3px rgb(170, 161, 161);
+}
+.ct{
+    padding-top:10px ;
+}
+div.ctt{
+    position: relative;
+    left: 20%;
+}
+.lftpd{
+    margin-left: 100px;
+    font-size: 28px;
+    display: inline-block;
+}
+.hrcl{
+    background-color: black;
+}
+
+
+.delflex{
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    z-index: 1;
+}
+.del{
+    width: 40px;height: 40px;border-radius: 50%;background-color: orangered;
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    z-index: -1px;
+}
+.dadd{
+    width: 40px;height: 40px;border-radius: 50%;background-color: rgba(0, 149, 255, 0.923);
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    z-index: -1px;
+}
+.trash{
+    margin: 8px 0px 0px 10px;
+    width: 20px;height: 22px;
+    background-image: url("trash-can-solid.svg");
+    background-size: cover;
+}
+.pluss{
+    margin: 8px 0px 0px 10px;
+    width: 20px;height: 22px;
+    background-image: url("plus-solid.svg");
+    background-size: cover;
+}
+#popup2{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 5px 30px rgb(49, 49, 49);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    align-items: center;
+    border-radius: 35px;
+}
+#popup2.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+div.ctt2{
+    position: relative;
+    left: 20%;
+}
+.flexinside{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+.delflexinside{
+    width:250px;
+    height:200px;
+    margin: 0 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.delflex1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: center;
+    vertical-align: middle;
+}
+.childInside{
+    text-align: center;
+    margin: 2px 3px;
+    width: 100px;height: 30px;
+    font-size: 24px;
+}
+.doneBttn{
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: red;
+    position: relative;
+    top: 5px;
+}
+.markDone{
+    text-align: center;
+    font-size:15px ;
+    margin: 1px;
+    vertical-align: middle;
+    position: relative;
+    top: -10px;
+    color: white;
+}
+#popup3{
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100vh;
+    visibility: hidden;
+    background: #fff;
+}
+#popup3.active{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+.flex3p{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    justify-content: flex-start;
+    margin: 50px 100px;
+}
+.achu{
+    align-content: center;
+}
+.xxx{
+    width: 40px; height:40px;background-color: red;
+}
+div.fff{
+    position: relative;
+    left: 40%;
+}
