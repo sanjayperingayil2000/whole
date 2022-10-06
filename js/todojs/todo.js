@@ -44,6 +44,7 @@ const addTaskInside=()=>{
     }
     taskListInside.push(tempObjInside);
     console.log(taskListInside);
+    addtsk(adid1);
 }
 
 function addscreen(){
